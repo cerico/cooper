@@ -8,7 +8,7 @@ module.exports = options => {
     devServer: {
        port: 2008,
         historyApiFallback: {
-          index: 'js/vanilla/index.html',
+          index: 'js/index.html',
       },
     },
   }

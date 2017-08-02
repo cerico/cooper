@@ -1,15 +1,12 @@
 import { h } from 'hyperapp';
 import Kendal from './Kendal/index';
 import Main from './Main/index';
+import state from '../state';
+import actions from '../actions';
 
-const views = [
+const Index = module.exports = () => {
 
-    ['/kendal', (state, actions) => <Kendal state={state} actions={actions}/>],
-    ['/', (state, actions) => <Main state={state} actions={actions}/>],
-     ['/eh', (state, actions) => <Main state={state} actions={actions}/>],
-
-
-    ['*', (state, actions) => <div>404</div>]
-]
-
-module.exports = views
+  return (
+    <Main state={state} actions={actions}/>
+  )
+};
