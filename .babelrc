@@ -1,12 +1,24 @@
 {
-  "plugins": [
+  "env": {
+    "hyperapp": {
+       "plugins": [
     ["transform-react-jsx", { "pragma": "h" }]
-  ],
+  ]
+    },
+     "react": {
+       "plugins": [
+    ["transform-react-jsx"]
+  ]
+    }
+  },
+  //      "plugins": [
+  //   ["transform-react-jsx"]
+  // ],
   "presets": [
     ["es2015", {
       "es2015": {
         "modules": false
       }
-    }],
-  ],
+    }]
+  ]
 }
