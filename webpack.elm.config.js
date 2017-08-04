@@ -3,12 +3,12 @@ var path = require("path");
 module.exports = {
   entry: {
     app: [
-      './src/index.js'
+      './src/elm/index.js'
     ]
   },
 
   output: {
-    path: path.resolve(__dirname + '/dist'),
+    // path: path.resolve(__dirname + '/dist'),
     filename: 'bundle.js',
   },
 

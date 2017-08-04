@@ -1,6 +1,6 @@
 module.exports = options => {
   return {
-    entry: './js/vanilla/index.js',
+    entry: './src/vanilla/index.js',
     output: {
       filename: 'bundle.js',
     },
@@ -8,7 +8,7 @@ module.exports = options => {
     devServer: {
        port: 2008,
         historyApiFallback: {
-          index: 'js/index.html',
+          index: 'src/index.html',
       },
     },
   }

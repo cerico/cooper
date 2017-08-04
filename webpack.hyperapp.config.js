@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = options => {
   return {
-    entry: './js/hyperapp/index.js',
+    entry: './src/hyperapp/index.js',
     output: {
       filename: 'bundle.js',
     },
@@ -13,7 +13,7 @@ module.exports = options => {
       compress: true,
       port: 2002,
        historyApiFallback: {
-        index: 'js/index.html',
+        index: 'src/index.html',
       },
     },
     module: {

@@ -6,7 +6,7 @@ function resolve (dir) {
 
 module.exports = options => {
   return {
-    entry: './js/vue/index.js',
+    entry: './src/vue/index.js',
     output: {
       filename: 'bundle.js',
     },
@@ -23,7 +23,7 @@ module.exports = options => {
       compress: true,
       port: 2003,
       historyApiFallback: {
-        index: 'js/vue/index.html',
+        index: 'src/vue/index.html',
       },
     },
     module: {
