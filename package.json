@@ -4,6 +4,7 @@
   "description": "compare hyperapp, vue and react - and redux and mobx",
   "main": "index.js",
   "scripts": {
+    "cljs": "shadow-cljs compile npm",
     "hyperapp": "NODE_ENV=hyperapp webpack-dev-server --host 0.0.0.0 --config webpack.hyperapp.config.js --open --env.dev",
     "cycle": "webpack-dev-server --host 0.0.0.0 --config webpack.cycle.config.js --open --env.dev",
     "vanilla": "webpack-dev-server --host 0.0.0.0 --config webpack.vanilla.config.js --open --env.dev",
@@ -37,7 +38,8 @@
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^0.28.4",
     "elm-webpack-loader": "^4.3.1",
-    "file-loader": "^0.11.2"
+    "file-loader": "^0.11.2",
+    "shadow-cljs": "^0.18.7"
   },
   "dependencies": {
     "@hyperapp/router": "github:hyperapp/router",
