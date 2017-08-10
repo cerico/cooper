@@ -1,6 +1,10 @@
+COOPER - TLDR
+---------------
+Simple variant of 'hello world' in VanillaJS, React, Vue, Hyperapp, Elm and Clojurescript for comparison purposes. Webpack runs each as a different build. This is version 1, routing and state management in subsequent versions to follow
+
 Frameworks
 ---------------
-Hyperapp, React, Vue, CycleJS, Elm, VanillaJS
+Hyperapp, React, Vue, Cljs, Elm, VanillaJS
 
 Instructions
 ---------------
@@ -8,37 +12,9 @@ Instructions
 * npm run hyperapp
 * npm run react
 * npm run vue
-* npm run cycle
 * npm run elm
 * npm run vanilla
+* npm run compile-cljs (to compile cljs)
+* npm run cljs
 
 
-TODO
----------------
-
-Add Frameworks
----------------
-[√] Hyperapp<br>
-[√] Vue<br>
-[ ] React<br>
-[√] Cycle<br>
-[√] Elm<br>
-[√] Vanilla<br>
-
-Add State Management
----------------
-[ ] Redux<br>
-[ ] Mobx<br>
-
-Docker
----------------
-[ ] dockerize!
-
-Add Routing
----------------
-[√] Hyperapp<br>
-[√] Vue<br>
-[ ] React<br>
-[ ] Cycle<br>
-[ ] Elm<br>
-[ ] Vanilla<br>
