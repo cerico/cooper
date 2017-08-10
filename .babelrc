@@ -11,9 +11,6 @@
   ]
     }
   },
-  //      "plugins": [
-  //   ["transform-react-jsx"]
-  // ],
   "presets": [
     ["es2015", {
       "es2015": {
