@@ -1,13 +1,6 @@
 module Main exposing (main)
 
-import Html
-import App exposing (init, update, view)
-
+import Html exposing (text)
 
 main =
-    Html.program
-        { init = init
-        , update = update
-        , view = view
-        , subscriptions = always Sub.none
-        }
+  text "I come from elm!"
