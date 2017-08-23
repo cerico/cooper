@@ -1,6 +1,3 @@
-const path = require('path');
-
-
 module.exports = options => {
   return {
     entry: './src/react/index.js',

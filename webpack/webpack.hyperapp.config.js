@@ -1,6 +1,3 @@
-const path = require('path');
-
-
 module.exports = options => {
   return {
     entry: './src/hyperapp/index.js',
@@ -9,8 +6,6 @@ module.exports = options => {
     },
     devtool: 'source-map',
     devServer: {
-      contentBase: path.resolve(__dirname, './'),
-      compress: true,
       port: 2002,
        historyApiFallback: {
         index: 'src/index.html',
