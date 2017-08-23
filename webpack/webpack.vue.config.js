@@ -23,7 +23,7 @@ module.exports = options => {
       compress: true,
       port: 2003,
       historyApiFallback: {
-        index: 'src/vue/index.html',
+        index: 'src/index.html',
       },
     },
     module: {

@@ -9,8 +9,6 @@ module.exports = options => {
     },
     devtool: 'source-map',
     devServer: {
-      contentBase: path.resolve(__dirname, './'),
-      compress: true,
       port: 2009,
        historyApiFallback: {
         index: 'src/index.html',
