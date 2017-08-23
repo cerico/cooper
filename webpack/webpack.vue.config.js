@@ -1,7 +1,7 @@
 const path = require('path');
 
 function resolve (dir) {
-  return path.join(__dirname, '..', dir)
+  return path.join(__dirname, '.', dir)
 }
 
 module.exports = options => {
@@ -19,8 +19,6 @@ module.exports = options => {
     },
     devtool: 'source-map',
     devServer: {
-      contentBase: path.resolve(__dirname, './'),
-      compress: true,
       port: 2003,
       historyApiFallback: {
         index: 'src/index.html',
