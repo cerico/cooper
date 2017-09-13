@@ -43,7 +43,7 @@
   "dependencies": {
     "@hyperapp/router": "github:hyperapp/router",
     "d3v4": "^4.2.2",
-    "hyperapp": "^0.9.3",
+    "hyperapp": "^0.12.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "vue": "^2.4.2",
