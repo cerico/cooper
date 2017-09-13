@@ -1,5 +1,7 @@
 COOPER - TLDR
 ---------------
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/cerico/cooper.svg)](https://greenkeeper.io/)
 Simple variant of 'hello world' in VanillaJS, React, Vue, Hyperapp, Elm and Clojurescript for comparison purposes. Webpack runs each as a different build. This is version 1, routing and state management in subsequent versions to follow
 
 Frameworks
